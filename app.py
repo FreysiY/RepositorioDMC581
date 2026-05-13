@@ -5,3 +5,5 @@ st.title("Mi primera aplicación en python")
 st.sidebar.title("Parámetros")
 
 st.write("Elaborado por: Freysi Zurita")
+
+sesion = st.sidebar.selectbox("Seleccione una sesión", ["Sesión 1","Sesión 2","Sesión 3","Sesión 4"] )
